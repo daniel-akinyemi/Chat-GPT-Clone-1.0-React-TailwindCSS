@@ -6,7 +6,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App flex text-white">
+    <div className="App block sm:flex text-white">
       <Aside/>
       <ChatSection/>
     </div>
